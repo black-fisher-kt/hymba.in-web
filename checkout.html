@@ -254,7 +254,7 @@ function generateQR() {
   box.style.display = 'flex';
   document.getElementById('qr-expired-msg').style.display = 'none';
   box.innerHTML = '';
-  const upiLink = `upi://pay?pa=${CONFIG.upi.id}&pn=${encodeURIComponent(CONFIG.upi.name)}&am=${currentPrice}&cu=${CONFIG.upi.currency}&tn=CEGFC2025`;
+  const upiLink = `upi://pay?pa=${CONFIG.upi.id}&pn=${encodeURIComponent(CONFIG.upi.name)}&am=${currentPrice}&cu=${CONFIG.upi.currency}&tn=CEGFC`;
   qrInstance = new QRCode(box, { text: upiLink, width: 190, height: 190, colorDark: '#1B2340', colorLight: '#ffffff', correctLevel: QRCode.CorrectLevel.H });
 }
 
