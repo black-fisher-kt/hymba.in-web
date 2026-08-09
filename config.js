@@ -56,7 +56,7 @@ const CONFIG = {
     },
     {
       q: "What exactly is included in the course?",
-      a: "Complete CAT 2025 course: recorded video lectures, notes, mock tests, PYQs, SimCAT sessions, Knockout sessions, VARC, LRDI and QA — all topics covered, sequentially arranged on Telegram."
+      a: "Complete CAT course: recorded video lectures, notes, mock tests, PYQs, SimCAT sessions, Knockout sessions, VARC, LRDI and QA — all topics covered, sequentially arranged on Telegram."
     },
     {
       q: "How will I receive the course after payment?",
